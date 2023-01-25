@@ -5,7 +5,7 @@ public class Main {
         double rate = 0.0999;
         double percent = rate / 12;
         double loan = 36;
-        double х = service.calculate(sum, percent, loan);
-        System.out.println(х);
+        double answer = service.calculate(sum, percent, loan);
+        System.out.println(answer);
     }
 }

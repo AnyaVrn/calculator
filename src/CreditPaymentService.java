@@ -1,11 +1,11 @@
 public class CreditPaymentService {
     public int calculate(double sum, double procent, double time) {
-        double a = 1 + procent;
-        double b = Math.pow(a, time);
-        double c = (b - 1);
-        double d = procent / c;
-        double e = procent + d;
-        double result = sum * e;
+        double percentage = 1 + procent;
+        double degree = Math.pow(percentage, time);
+        double denominator = (degree - 1);
+        double numenator = procent / denominator;
+        double variable = procent + numenator;
+        double result = sum * variable;
         return (int) result;
     }
 }
